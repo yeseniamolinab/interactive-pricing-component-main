@@ -143,13 +143,16 @@ input:checked + .toggle::before {
 }
 
 .tag {
-    content: "25% discount";
     background-color: rgb(255, 140, 102, 0.2);
     color: hsl(15, 100%, 70%);
     border-radius: 13px;
     padding: 3px 8px;
     margin-left: 10px;
     font-size: 13px;
+}
+
+.tag::after {
+    content: "25% discount";
 }
 
 .cta-section {
